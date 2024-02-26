@@ -9,12 +9,12 @@
 <body>
 
 <?php 
-include 'nav.html'; 
+include 'nav.php'; 
 include 'conexao.php';
 ?>
     
 <h1>Faça login ou Cadastre-se</h1>
-<form method="POST" action="">
+<form method="POST" action="request_login.php">
     <label for="email">Email</label>
     <input type="text" id="email" name= "email"placeholder="Digite seu email">
     <label for="password">Senha</label>

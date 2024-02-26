@@ -1,5 +1,5 @@
 <?php 
-include 'nav.html'; 
+include 'nav.php'; 
 include 'conexao.php';
 ?>
 
