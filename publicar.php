@@ -33,16 +33,6 @@ include 'conexao.php';
     </div>
 </form>
 
-<h2>Comentários sobre o tema</h2>
-
-<div>
-    <label for="autor">Autor</label>
-    <input type="text" id="autor" name="autor">
-    <label for="text">Texto</label>
-    <input type="text" id="text" name="text" placeholder="Qual a sua opinião sobre o tema? ">
-
-    <button type="submit">Comentar</button>
-</div>
 
 <?php include 'rodape.html'; ?>
 
