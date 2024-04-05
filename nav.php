@@ -1,4 +1,6 @@
-<nav class="navbar">
+<link rel="stylesheet" href="style.css">
+
+<nav class="navbar1">
   <div class="container-fluid">
     <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
       <div class="navbar-nav" style="color: inherit;" >

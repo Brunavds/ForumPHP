@@ -39,14 +39,17 @@ verForum($idForum);
 
 <h2>Comentários sobre o tema</h2>
 
+<form action="request_comentarios.php" method="POST">
 <div>
     <label for="autor">Autor</label>
     <input type="text" id="autor" name="autor">
-    <label for="text">Texto</label>
-    <input type="text" id="text" name="text" placeholder="Qual a sua opinião sobre o tema? ">
+    <label for="texto">Texto</label>
+    <input type="texto" id="texto" name="texto" placeholder="Qual a sua opinião sobre o tema? ">
 
     <button type="submit">Comentar</button>
 </div>
+</form>
+
 
 
 
